@@ -1,0 +1,110 @@
+// body {
+//   height: 100vh;
+//   overflow: hidden;
+  
+// }
+
+.login-page {
+  display: flex;
+    background-color: var(--primary-color);
+
+  &__left {
+    height: 100vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
+
+    &--heading img {
+      width: 100%;
+      margin: auto;
+    }
+    &--tagline {
+      width: 100%;
+      font-size: 1.5rem;
+      padding: 2rem 0rem;
+      margin: auto;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  &__right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    padding: 2rem;
+    &--heading {
+      font-size: 2rem;
+      font-family: "Inter", sans-serif;
+      padding: 3rem 0rem;
+      font-weight: 600;
+    }
+    &--form {
+      min-width: 70%;
+    }
+    &--forgot-password {
+      float: right;
+    }
+    .or {
+      display: flex;
+      justify-content: center;
+      margin: -0.4rem auto 1rem;
+      color: #999999;
+    }
+    &--create-account {
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0rem;
+      span{
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .google {
+      width: 1.5rem;
+      padding: 0.3rem;
+      float: left;
+    }
+    .googlewrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2rem;
+    }
+  }
+}
+
+:where(.css-dev-only-do-not-override-6x5oae).ant-btn.ant-btn-lg {
+
+    padding: 0 15px;
+}
+
+:where(.css-dev-only-do-not-override-6x5oae) a{
+       text-decoration: underline;
+      }
+
+
+.alert{
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.password-alignment-error{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -23px;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.modes{
+    position: absolute;
+    bottom: 1px;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-layout .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+    width: 80px;
+}
+
+
+// :where(.css-dev-only-do-not-override-n90iij).ant-menu .ant-menu-item, :where(.css-dev-only-do-not-override-n90iij).ant-menu .ant-menu-submenu, :where(.css-dev-only-do-not-override-n90iij).ant-menu .ant-menu-submenu-title {
+//     border-radius: 0px;
+//     // margin: 0.5rem 0rem;
+//     margin-top: 0.8rem;
+// }
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-layout .ant-layout-sider {
+    position: relative !important;
+}
+

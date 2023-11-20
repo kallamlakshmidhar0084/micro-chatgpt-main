@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.modes {
+  position: absolute;
+  bottom: 1px;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-layout .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+  width: 80px;
+}
+
+:where(.css-dev-only-do-not-override-yp8pcc).ant-layout .ant-layout-sider {
+  position: relative !important;
+}/*# sourceMappingURL=sidebar.css.map */

@@ -1,0 +1,104 @@
+.login-page {
+  display: flex;
+  background-color: var(--primary-color);
+}
+.login-page__left {
+  height: 100vh;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+}
+.login-page__left--heading img {
+  width: 100%;
+  margin: auto;
+  font-weight: 600;
+}
+.login-page__left--tagline {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 2rem 0rem;
+  margin: auto;
+  font-weight: 400;
+  text-align: center;
+}
+.login-page__right {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+  padding: 2rem;
+}
+.login-page__right--heading {
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  padding: 3rem 0rem;
+}
+.login-page__right--form {
+  min-width: 70%;
+}
+.login-page__right--forgot-password {
+  float: right;
+}
+.login-page__right .or {
+  display: flex;
+  justify-content: center;
+  margin: -0.4rem auto 1rem;
+}
+.login-page__right--create-account {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0rem;
+}
+.login-page__right--create-account span {
+  display: flex;
+  align-items: center;
+}
+.login-page__right--name {
+  display: flex;
+  justify-content: space-between;
+}
+.login-page__right .col {
+  color: #999999;
+}
+.login-page__right Input:hover {
+  border-color: var(--primary-color);
+}
+.login-page__right .googlewrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+.login-page__right .google {
+  width: 1.5rem;
+  float: left;
+}
+
+:where(.css-dev-only-do-not-override-6x5oae).ant-btn.ant-btn-lg {
+  padding: 0 15px;
+}
+
+a:where(.css-dev-only-do-not-override-6x5oae).ant-typography, :where(.css-dev-only-do-not-override-6x5oae).ant-typography a {
+  color: #ffb800;
+  text-decoration: underline;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.alert {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=signup.css.map */

@@ -1,0 +1,32 @@
+<single-spa-router>
+	<main>
+		<route default>
+			<application name="@react/auth"></application>
+		</route>
+		<div class="wrapper_afterauth">
+			<route path="examples">
+				<application name="@react/sidebar"></application>
+				<application name="@react/examples"></application>
+			</route>
+			<route path="chat">
+				<application name="@react/sidebar"></application>
+				<application name="@react/chat"></application>
+			</route>
+		</div>
+	</main>
+	<!-- <main>
+		<route default>
+			<application name="@react/auth"></application>
+		</route>
+
+		<div class="wrapper_afterauth">
+			<application name="@react/sidebar"></application>
+			<route path="examples">
+				<application name="@react/examples"></application>
+			</route>
+			<route path="chat">
+				<application name="@react/chat"></application>
+			</route>
+		</div>
+	</main> -->
+</single-spa-router>

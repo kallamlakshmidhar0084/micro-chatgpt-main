@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #ffb800;
+    --secondary-color: #f7931d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-btn-primary{
+  background-color: var(--primary-color);
+  
+}
+:where(.css-dev-only-do-not-override-ed5zg0).ant-btn-primary:hover{
+  background-color: var(--secondary-color);
+}
+
+
+.wrapper_afterauth{
+    display: flex;
+    width: 100%;
+}
+
+.fixed{
+    position: sticky;
+    top: 0;
+}

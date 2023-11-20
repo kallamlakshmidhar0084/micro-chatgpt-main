@@ -1,0 +1,10 @@
+{
+	"imports": {
+		"react": "https://cdn.jsdelivr.net/npm/react@17.0.1/umd/react.production.min.js",
+		"react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.1/umd/react-dom.production.min.js",
+		"single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.8.2/lib/system/single-spa.min.js",
+		"@react/styleguide": "https://mfe-micro-chatgpt.s3.amazonaws.com/styleguide/latest/react-styleguide.js",
+		"@react/root-config": "https://mfe-micro-chatgpt.s3.amazonaws.com/root/latest/react-root-config.js",
+		"@react/auth": "https://mfe-micro-chatgpt.s3.amazonaws.com/auth/latest/react-auth.js"
+	}
+}
